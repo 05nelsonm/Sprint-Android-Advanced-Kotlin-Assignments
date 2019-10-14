@@ -7,6 +7,4 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
 
-
-    Some more text that doesn't belong
 </menu>
