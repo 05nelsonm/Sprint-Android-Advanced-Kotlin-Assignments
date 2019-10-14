@@ -15,7 +15,9 @@ import android.view.Menu
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
 
-    override fun onCreatedActivity(savedInstanceState: Bundle?) {
+    "functional override onCreatedActivity(state: State?) {"
+
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
