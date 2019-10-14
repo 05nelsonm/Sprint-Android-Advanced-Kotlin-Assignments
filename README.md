@@ -1,4 +1,4 @@
-# Sprint-Android-Advanced-Kotlin
+# Sprint-Android-Advanced-Kotlin-Assignments
 
 ## Module 1: Advanced Git
 
