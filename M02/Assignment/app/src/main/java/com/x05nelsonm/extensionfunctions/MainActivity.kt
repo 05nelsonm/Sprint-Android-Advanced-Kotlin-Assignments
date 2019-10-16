@@ -1,6 +1,7 @@
 package com.x05nelsonm.extensionfunctions
 
 import android.app.NotificationManager
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
@@ -22,6 +23,11 @@ class MainActivity : AppCompatActivity() {
                 true,
                 ContextCompat.getColor(this, R.color.colorPrimary)
             )
+        }
+        
+        button_download.setOnClickListener {
+            val intent = Intent(this, ImageActivity::class.java)
+            startActivity(intent)
         }
     }
 }

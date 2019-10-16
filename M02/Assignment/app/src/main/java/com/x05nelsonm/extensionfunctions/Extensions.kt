@@ -4,7 +4,9 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
+import android.widget.ImageView
 import androidx.core.app.NotificationCompat
+import com.bumptech.glide.Glide
 
 fun Context.showNotification(
     notificationId: Int,
@@ -43,4 +45,8 @@ fun Context.showNotification(
             .setColor(resourceColor)
     }
     notificationManager.notify(notificationId, notificationBuilder.build())
+}
+
+fun ImageView.loadImageFromUrl(url: String) {
+    Glide.with(this).load(url).into(this)
 }
