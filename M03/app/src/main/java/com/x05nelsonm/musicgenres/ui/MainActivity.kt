@@ -1,7 +1,8 @@
-package com.x05nelsonm.musicgenres
+package com.x05nelsonm.musicgenres.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.x05nelsonm.musicgenres.R
 
 class MainActivity : AppCompatActivity() {
 
